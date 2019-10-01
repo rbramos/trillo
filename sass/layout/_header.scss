@@ -1,0 +1,22 @@
+.header {
+  font-size: 1.4rem;
+  height: 6rem;
+  background-color: #fff;
+  border-bottom: var(--border-grey);
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include respond(bp-smallest) {
+    height: 11rem;
+    padding: 0 1.5rem;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+}
+
+.logo {
+  height: 3.25rem;
+  margin-left: 2rem;
+}

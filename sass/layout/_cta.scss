@@ -1,0 +1,16 @@
+.cta {
+
+  padding: 3.5rem 0;
+  text-align: center;
+
+  @include respond(bp-smallest) {
+    padding: 3.5rem 8rem;
+  }
+  
+  &__alert {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    text-transform: uppercase
+  }
+}
